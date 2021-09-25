@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.container {
+.container__principal {
     display: grid;
     background-image: url(../Media/FONDO.JPG);
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 /*menú y logo*/
-.header {
+.header__principal {
     /*background-color: crimson;*/
     display: flex;
     grid-area: header;
@@ -59,7 +59,7 @@ nav ul li a:hover {
 }
 
 /*nombre*/
-.main {
+.main__principal {
     grid-area: main; 
 }
 .título { 
@@ -76,7 +76,7 @@ nav ul li a:hover {
  }
 
 /*bloques texto*/
-.section { 
+.section__principal { 
     background-image: linear-gradient(to bottom, cornsilk, #F7EE94);
     line-height: 1.6;
     width: 450px;
@@ -125,25 +125,25 @@ nav ul li a:hover {
 
 /*página Contacto*/
 .contacto { 
-    border: solid 2px black;
-    padding: 10px;
-    width: 400px;
+    border: solid 2px gray;
+    padding: 50px;
+    /*  width: 400px;
     height: 400px;
     margin:100px 100px 200px 200px;
     overflow: visible;
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.6;
+    line-height: 1.6; */
     }
 
 label { 
     display: block;
     }
-.input__contacto { 
+/* .input__contacto { 
     display: block;
-}
+} */
 
 /*FOOTER*/
-.footer {
+.footer__principal {
     grid-area: footer;
     height: 200px;
     display: flex;
