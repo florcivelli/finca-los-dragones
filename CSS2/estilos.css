@@ -23,7 +23,6 @@ html {
 }
 /*menú y logo*/
 .header__principal {
-    /*background-color: crimson;*/
     display: flex;
     grid-area: header;
     flex-direction: row;   
@@ -33,7 +32,6 @@ html {
 .header__logo { 
     height: 150px;      
     }
-
 
 nav ul li { 
     list-style: none;
@@ -103,18 +101,13 @@ nav ul li a:hover {
 .alfil__vino {  
     height: 500px;
     margin: 100px;
+    
 }
 .losdragones__vino { 
     height: 500px;
     margin: 100px;
+    
 }
-/* .nombre__vino { 
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bolder;
-    margin: 100px;
-    font-size: 30px;
-    color: rgb(219, 13, 13);
-} */
 
 /*página Finca*/
 .foto__viñedo { 
@@ -127,21 +120,11 @@ nav ul li a:hover {
 .contacto { 
     border: solid 2px gray;
     padding: 50px;
- 
-    /*  width: 400px;
-    height: 400px;
-    margin:100px 100px 200px 200px;
-    overflow: visible;
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.6; */
-    }
+ }
 
 label { 
     display: block;
     }
-/* .input__contacto { 
-    display: block;
-} */
 
 /*FOOTER*/
 .footer__principal {
@@ -152,3 +135,12 @@ label {
     font-size: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url(../media/FONDO\ mobile.jpg);        
+    }
+  
+}
+  
+
